@@ -33,5 +33,22 @@ public class solution04 {
 
         System.out.println("Here it is!");
         System.out.println("Dude, my " + noun + " just " + ptVerb + " my " + nounTwo + " and now " + person + " is " + state + "!");
+
+        if(ptVerb.contains("killed"))
+        {
+            System.out.println("Holy crap! Your " + noun + " killed your " + nounTwo + "?! Let's get revenge!");
+            System.out.println("Give us a type of vehicle!");
+            String vehicle = input.next();
+            System.out.println("Now a kind of family member!");
+            String familyMember = input.next();
+            System.out.println("What's your favorite place?");
+            String favoritePlace = input.next();
+            System.out.println("How about a size adjective?");
+            String size = input.next();
+            System.out.println("How about an evil adjective?");
+            String evilAdjective = input.next();
+            System.out.println("Alright, here's your plan to avenge " + noun);
+            System.out.println("Armed with a " + vehicle + ", " + nounTwo + "'s " + familyMember + " took to " + favoritePlace + " to fight the " + size + " " + evilAdjective + " " + noun + "tron!!!");
+        }
     }
 }
